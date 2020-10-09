@@ -1,0 +1,134 @@
+html body
+{
+	font-family: 'Tajawal', sans-serif;
+	
+}
+
+/*Nvigation Bar*/
+
+.container-fluid .logo-txt table tr td span
+{
+	color: #b1a35a !important;
+	font-weight: bolder;
+}
+.main-nav
+{
+	border-bottom: 2px solid #005086 ;
+}
+.container-fluid .logo-txt table tr td span #lblDonateAmountErr0 , .logo-txt table tr td span #lblDonateAmountErr1
+{
+	font-size: 20px !important;
+	margin-top: 3rem !important;
+}
+/* 6f0000*/
+
+.container-fluid .logo-sec .img2-logo-sec
+{
+	width: 130px ;
+}
+@media (max-width: 992px)
+{
+	.container-fluid .logo-sec .img2-logo-sec
+	{
+		width: 120px ;
+	}
+	.container-fluid .logo-sec .img1-logo-sec 
+	{
+		width: 50px ;
+	}
+	.container-fluid .logo-sec
+	{
+		justify-content: center;
+		align-items: center;
+	}
+	.container-fluid .logo-txt table tr td span #lblDonateAmountErr0
+	{
+		font-size: 20px !important;
+		margin-top: 3rem !important;
+	}
+	.container-fluid .logo-txt
+	{
+		justify-content : center !important;
+	}
+}
+
+@media (max-width: 767px)
+{
+	.container-fluid .logo-sec .img2-logo-sec
+	{
+		margin-top: 17px ;
+	}
+	.container-fluid .logo-sec .img1-logo-sec 
+	{
+		margin-top: 17px ;
+	}
+	.container-fluid .logo-txt table tr td span #lblDonateAmountErr0 
+	{
+		font-size: 15px !important;
+		font-weight: bold !important;
+	}
+	.container-fluid .logo-txt table tr td span #Label1 , .container-fluid .logo-txt table tr td span #Label2
+	{
+		font-weight: lighter !important;
+		font-size: 13px !important;
+	}
+	.logo-txt table tr td span #lblDonateAmountErr1
+	{
+		font-size: 20px !important;
+		font-weight: bold !important;
+	}
+	.logo-txt table tr td span #Label1-1 , .logo-txt table tr td span #Label2-1
+	{
+		font-weight: lighter !important;
+		font-size: 15px !important;
+	}
+	
+}
+
+/*/Navigation Bars*/
+.alert-scroll
+{
+	color: darkred ;
+	font-weight: bold ;
+}
+.main-dash .counts , .main-dash .counts-num
+{
+	color : #005086;
+	font-weight: bold ;
+}
+.main-dash .que-btn
+{
+	color: #005086 ;
+	border: 2px solid #005086;
+	font-weight: 600 ;
+	border-radius: 5px ;
+	cursor: pointer;
+	
+}
+.main-dash .que-btn a
+{
+	text-decoration: none;
+}
+
+.final-jum
+{
+	z-index: 9999 ;
+    background-color: #222831;
+    color: #fff;
+    padding-top: .5rem ;
+    margin-right: 0px ;
+    margin-left: 0px ;
+    border-top: 2px solid #b1a35a ;
+}
+.final-jum i
+{
+	font-size: 18px ;
+	color: #fff;
+	padding: 0.5rem ;
+	border: 2px solid #b1a35a ;
+	border-radius: 50% ;
+}
+.final-jum hr
+{
+	background-color: #b1a35a
+}
